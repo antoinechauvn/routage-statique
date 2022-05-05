@@ -11,7 +11,7 @@ Lorsque vous ajoutez une adresse IP à une interface et que cette interface est 
 ```
 * network : est l’adresse du réseau à joindre
 * mask : est le masque du réseau à joindre
-* address : est l’adresse du prochain routeur directement connecté pour atteindre le réseau
+* address : est l’adresse du prochain routeur directement connecté pour atteindre le réseau (ip de l'interface ou on l'emmène)
 * interface : est l’interface de sortie du routeur pour atteindre le réseau
 * AD : distance administrative optionnelle (1, par défaut)
 
