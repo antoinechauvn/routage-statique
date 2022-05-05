@@ -18,3 +18,7 @@ Lorsque vous ajoutez une adresse IP à une interface et que cette interface est 
 ![image](https://user-images.githubusercontent.com/83721477/167009712-bd2be6c5-a021-4cc8-a9b7-491d1513a299.png)
 * `C` : Connected<br>
 * `S` : Static
+
+## Route statique flottant
+
+Une route statique flottante est une route statique qui prendra le relais en cas de rupture de la meilleure liaison. Elle peut servir de mécanisme de backup. Une route statique flottante se configure avec une distance administrative plus élevée qu’une route apprise autrement.
